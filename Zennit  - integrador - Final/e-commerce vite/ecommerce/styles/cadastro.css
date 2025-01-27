@@ -1,0 +1,285 @@
+
+.login-container{
+    background-color: #d1b5d1;    
+}
+
+/* HEADER */
+
+/* HEADER */
+
+.header{
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-container{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.banner-container img:hover{
+    transform: scale(0.95);
+
+}
+
+.img-container img{
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.9s ease;
+}
+
+.navbar{
+    background-color: #FFF;
+    color: black;
+    padding: 10px 0;
+    top: 30px; 
+    font-size: 20px;
+} 
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color:#6e556ee7;
+    border-bottom: 2px solid #d1b5d1;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 128px;
+    height: 88px;
+    margin-left: 90px;
+}
+
+.logo-container img{
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.search-bar{
+    width: 70%;
+    display: flex;
+    align-items: end;
+}
+
+.search-bar input{
+    width: 100%;
+    font-size: 1em;
+    padding: 16px 60px;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    background-color: #dfdedd85;
+} 
+
+.search-bar i {
+    background-color: #cdb4cd;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    font-size: 1.615em;
+   
+}
+
+.icones{
+    background-color: transparent;
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    padding: 15px;
+    flex-direction: column;
+    position: fixed;
+    right: 60px;
+} 
+
+.icones a{
+    color: #000;
+}
+
+.icones :hover{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color:#e7d7e7;
+    padding: 10px 200px;
+}
+
+.cabecalho h4,p{
+    color:#000;
+    font-weight: 200;
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    color: #6e556ee7;
+    border-bottom: 2px solid;
+}
+
+span{
+    color: red;
+}
+
+
+/* CADASTRO */
+
+.login-container{
+    margin: 20vh 40vw 0vh;
+    padding: 10vh 13.5vw 10vh 5vw;
+    border-radius: 10px;
+    position: absolute; 
+    top: 10%;
+    left: 10%;
+    right: -15%;
+    font-size: 110%;
+    transform: translate(-50%,-4%); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+h3{
+    transform: translate(78%, -250%);
+    left: 10;
+}
+
+.login input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;    
+    width: 200%;
+}
+
+.enviar-btn{
+    border: none;
+    padding: 8px;
+    width: 220%;
+    border-radius: 10px;
+    background-color: #a89ba8;
+    cursor: pointer;
+}
+
+.enviar-btn:hover{
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 18.5px;
+    
+}
+.cadastro{
+    margin: 70vh 40vw 10vh;
+}
+
+/* FOOTER */
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 50px 0;
+    margin-top: 700px;
+
+}
+
+.footer-col{
+    left: 100px;
+    right: 100px;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute; 
+    left: 0; 
+    bottom: -10px; 
+    height: 2px; 
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;  
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #FFFFFF ;
+    padding-left: 8px;
+}
+
+.footer-col .social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255,255,2555,0.2);
+    margin: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFF;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social a:hover{
+    color: #24262b;
+    background-color: #FFF;
+}
+
+.footer-col p{
+    color: white;
+    font-size: 16px;
+}
