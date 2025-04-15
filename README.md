@@ -3,7 +3,7 @@
 **`Projeto integrador do primeiro semestre`**
 
 Zennit é um projeto de ecommerce que consiste em permitir que o usuário veja o catálogo de roupas, coloque roupas de sua escolha no carrinho, além de efetuar a compra e o preenchimento de dados de pagamento.
-*O site não usa dados reais e nem efetual realmente a compra dos produtos.*
+*O site não usa dados reais e nem efetua realmente a compra dos produtos.*
 ----
 
 ## Tecnologias Utilizadas para desenvolvimento
